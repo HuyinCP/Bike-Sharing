@@ -1,4 +1,4 @@
-# Slide & ghi chú lớp học
+# Final Project — Data Science · Slide & ghi chú lớp học
 
 Tài liệu từ slide / bài lab KhDL (Khám phá dữ liệu lớn) và các buổi học liên quan — **không** phải nội dung báo cáo chính thức của nhóm.
 

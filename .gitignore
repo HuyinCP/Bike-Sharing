@@ -30,7 +30,7 @@ env/
 .ipynb_checkpoints/
 
 # -----------------------------------------------------------------------------
-# Dữ liệu lớn — repo Huy_DS dùng dataraw/ và dataclean/
+# Dữ liệu lớn — dự án dùng dataraw/ và dataclean/
 # File parquet ở đây vài GB, chỉ giữ local
 # -----------------------------------------------------------------------------
 dataraw/

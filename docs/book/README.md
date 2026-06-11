@@ -1,4 +1,4 @@
-# Learning Data Science (offline)
+# Final Project — Data Science · Learning Data Science (offline)
 
 Bản crawl cuốn [Learning Data Science](https://learningds.org/intro.html) (DS-100 / textbook).
 
