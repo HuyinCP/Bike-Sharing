@@ -69,3 +69,8 @@ desktop.ini
 # !docs/report/**/*.png    # NGOẠI LỆ: vẫn track PNG trong docs/report
 # /secret.txt              # chỉ ignore secret.txt ở thư mục gốc repo
 # build/                   # ignore thư mục build ở mọi cấp
+
+# -----------------------------------------------------------------------------
+# Notebook nháp / chưa dùng cho đồ án chính (tạm thời)
+# -----------------------------------------------------------------------------
+notebooks/
