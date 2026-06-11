@@ -1,0 +1,71 @@
+# =============================================================================
+# .gitignore — Git bỏ qua các file/thư mục khớp pattern bên dưới
+# Thử: git status          → file ignore không hiện
+#      git check-ignore -v dataraw/  → xem pattern nào match
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python — bytecode, cache, môi trường ảo
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Môi trường ảo (chọn một trong các tên phổ biến)
+.venv/
+venv/
+env/
+.env/
+
+# Biến môi trường / secret — KHÔNG đẩy lên Git
+.env
+.env.*
+!.env.example
+
+# -----------------------------------------------------------------------------
+# Jupyter Notebook — checkpoint tự sinh khi mở notebook
+# -----------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# -----------------------------------------------------------------------------
+# Dữ liệu lớn — repo Huy_DS dùng dataraw/ và dataclean/
+# File parquet ở đây vài GB, chỉ giữ local
+# -----------------------------------------------------------------------------
+dataraw/
+dataclean/
+
+# Nếu sau này có file CSV/parquet rải rác ngoài 2 thư mục trên:
+# *.parquet
+# *.csv
+
+# -----------------------------------------------------------------------------
+# File tạm / script chạy một lần
+# -----------------------------------------------------------------------------
+_tmp_*
+*.tmp
+*.log
+
+# -----------------------------------------------------------------------------
+# Hệ điều hành
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------------------------------------
+# Editor / IDE (tuỳ chọn — bỏ comment nếu muốn chia sẻ cấu hình)
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# -----------------------------------------------------------------------------
+# VÍ DỤ TẬP DÙNG — bỏ dấu # ở dòng muốn thử
+# -----------------------------------------------------------------------------
+# *.png                    # ignore mọi file PNG
+# !docs/report/**/*.png    # NGOẠI LỆ: vẫn track PNG trong docs/report
+# /secret.txt              # chỉ ignore secret.txt ở thư mục gốc repo
+# build/                   # ignore thư mục build ở mọi cấp

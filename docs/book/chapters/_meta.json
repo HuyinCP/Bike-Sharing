@@ -1,0 +1,1359 @@
+{
+  "total": 150,
+  "ok": 150,
+  "fail": 0,
+  "total_chars": 976120,
+  "full_book": "D:\\Huy_DS\\docs\\book\\full_book.md",
+  "pages": [
+    {
+      "path": "intro",
+      "url": "https://learningds.org/intro.html",
+      "title": "Learning Data Science",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 515,
+      "preview": "# Learning Data Science# By Sam Lau, Joey Gonzalez, and Deb Nolan. Learning Data Science is an introductory textbook for data science published by O’Reilly Media in 2023. It covers foundational skills in programming and statistics that encompass the data science lifecycle. The reader’s assumed backg"
+    },
+    {
+      "path": "preface",
+      "url": "https://learningds.org/preface.html",
+      "title": "Preface",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9596,
+      "preview": "# Preface# Data science is exciting work. The ability to draw insights from messy data is valuable for all kinds of decision making across business, medicine, policy, and more. This book, Learning Data Science, aims to prepare readers to do data science. To achieve this, we’ve designed this book wit"
+    },
+    {
+      "path": "ch/01/lifecycle_intro",
+      "url": "https://learningds.org/ch/01/lifecycle_intro.html",
+      "title": "1. The Data Science Lifecycle",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1403,
+      "preview": "# 1. The Data Science Lifecycle# Data science is a rapidly evolving field. At the time of this writing, people are still trying to pin down exactly what data science is, what data scientists do, and what skills data scientists should have. What we do know, though, is that data science uses a combina"
+    },
+    {
+      "path": "ch/01/lifecycle_cycle",
+      "url": "https://learningds.org/ch/01/lifecycle_cycle.html",
+      "title": "1.1. The Stages of the Lifecycle",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5589,
+      "preview": "# 1.1. The Stages of the Lifecycle# Figure 1.1 shows the data science lifecycle. The lifecycle is divided into four stages: Ask a Question, Obtain Data, Understand the Data, and Understand the World. We’ve purposefully made these stages broad. In our experience, the mechanics of the lifecycle change"
+    },
+    {
+      "path": "ch/01/lifecycle_map",
+      "url": "https://learningds.org/ch/01/lifecycle_map.html",
+      "title": "1.2. Examples of the Lifecycle",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2809,
+      "preview": "# 1.2. Examples of the Lifecycle# Several case studies that address the entire data science lifecycle are placed throughout this book. These cases serve double duty. They focus on one stage in the lifecycle to provide a specific example of the topics in the part of the book where they are located, a"
+    },
+    {
+      "path": "ch/01/lifecycle_summary",
+      "url": "https://learningds.org/ch/01/lifecycle_summary.html",
+      "title": "1.3. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1162,
+      "preview": "# 1.3. Summary# The data science lifecycle provides an organizing structure for this book. We keep the lifecycle in mind as we work with many datasets from a wide range of sources, including science, medicine, politics, social media, and government. The first time we use a dataset, we provide the co"
+    },
+    {
+      "path": "ch/02/data_scope_intro",
+      "url": "https://learningds.org/ch/02/data_scope_intro.html",
+      "title": "2. Questions and Data Scope",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1994,
+      "preview": "# 2. Questions and Data Scope# As data scientists we use data to answer questions, and the quality of the data collection process can significantly impact the validity and accuracy of the data, the strength of the conclusions we draw from an analysis, and the decisions we make. In this chapter, we d"
+    },
+    {
+      "path": "ch/02/data_scope_big_data_hubris",
+      "url": "https://learningds.org/ch/02/data_scope_big_data_hubris.html",
+      "title": "2.1. Big Data and New Opportunities",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5592,
+      "preview": "# 2.1. Big Data and New Opportunities# The tremendous increase in openly available data has created new roles and opportunities in data science. For example, data journalists look for interesting stories in data much like how traditional beat reporters hunt for news stories. The data lifecycle for t"
+    },
+    {
+      "path": "ch/02/data_scope_construct",
+      "url": "https://learningds.org/ch/02/data_scope_construct.html",
+      "title": "2.2. Target Population, Access Frame, and Sample",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11114,
+      "preview": "# 2.2. Target Population, Access Frame, and Sample# An important initial step in the data lifecycle is to express the question of interest in the context of the subject area and consider the connection between the question and the data collected to answer that question.  It’s a good practice to do t"
+    },
+    {
+      "path": "ch/02/data_scope_protocols",
+      "url": "https://learningds.org/ch/02/data_scope_protocols.html",
+      "title": "2.3. Instruments and Protocols",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2386,
+      "preview": "# 2.3. Instruments and Protocols# When we consider the scope of the data, we also consider the instrument being used to take the measurements and the procedure for taking measurements, which we call the protocol. For a survey, the instrument is typically a questionnaire that an individual in the sam"
+    },
+    {
+      "path": "ch/02/data_scope_natural",
+      "url": "https://learningds.org/ch/02/data_scope_natural.html",
+      "title": "2.4. Measuring Natural Phenomena",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4045,
+      "preview": "# 2.4. Measuring Natural Phenomena# The scope diagram introduced for observing a target population can be extended to the situation where we want to measure a quantity, such as a particle count in the air, the age of a fossil, or the speed of light. In these cases, we consider the quantity we want t"
+    },
+    {
+      "path": "ch/02/data_scope_accuracy",
+      "url": "https://learningds.org/ch/02/data_scope_accuracy.html",
+      "title": "2.5. Accuracy",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11805,
+      "preview": "# 2.5. Accuracy# In a census, the access frame matches the population, and the sample captures the entire population. In this situation, if we administer a well-designed questionnaire, then we have complete and accurate information on the population, and the scope is perfect. Similarly in measuring "
+    },
+    {
+      "path": "ch/02/data_scope_summary",
+      "url": "https://learningds.org/ch/02/data_scope_summary.html",
+      "title": "2.6. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2243,
+      "preview": "# 2.6. Summary# No matter the kind of data you are working with, before diving into cleaning, exploration, and analysis, take a moment to look into the data’s source. If you didn’t collect the data, ask yourself: - Who collected the data? - Why were the data collected? Answers to these questions can"
+    },
+    {
+      "path": "ch/03/theory_intro",
+      "url": "https://learningds.org/ch/03/theory_intro.html",
+      "title": "3. Simulation and Data Design",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2145,
+      "preview": "# 3. Simulation and Data Design# In this chapter, we develop the basic theoretical foundation needed to reason about how data is sampled and the implications on bias and variance. We build this foundation not on the dry equations of classic statistics but on the story of an urn filled with marbles. "
+    },
+    {
+      "path": "ch/03/theory_urn",
+      "url": "https://learningds.org/ch/03/theory_urn.html",
+      "title": "3.1. The Urn Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 19189,
+      "preview": "# 3.1. The Urn Model# The urn model was developed by Jacob Bernoulli in the early 1700s as a way to model the process of selecting items from a population. The urn model shown in Figure 3.1 gives a visual description of the process of randomly sampling marbles from an urn. Five marbles were original"
+    },
+    {
+      "path": "ch/03/theory_election",
+      "url": "https://learningds.org/ch/03/theory_election.html",
+      "title": "3.2. Example: Simulating Election Poll Bias and Variance",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11167,
+      "preview": "# 3.2. Example: Simulating Election Poll Bias and Variance# In 2016, nearly every prediction for the outcome of the US presidential election was wrong. This was a historic level of prediction error that shocked the statistics and data science communities. Here, we examine why nearly every political "
+    },
+    {
+      "path": "ch/03/theory_vaccine_efficacy",
+      "url": "https://learningds.org/ch/03/theory_vaccine_efficacy.html",
+      "title": "3.3. Example: Simulating a Randomized Trial for a Vaccine",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7365,
+      "preview": "# 3.3. Example: Simulating a Randomized Trial for a Vaccine# In a drug trial, volunteers for the trial receive either the new treatment or a placebo (a fake treatment), and researchers control the assignment of volunteers to the treatment and placebo groups. In a randomized controlled experiment, th"
+    },
+    {
+      "path": "ch/03/theory_measurement_error",
+      "url": "https://learningds.org/ch/03/theory_measurement_error.html",
+      "title": "3.4. Example: Measuring Air Quality",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4918,
+      "preview": "# 3.4. Example: Measuring Air Quality# Across the US, sensors to measure air pollution are widely used by individuals, community groups, and state and local air monitoring agencies. For example, on two days in September 2020, approximately 600,000 Californians and 500,000 Oregonians viewed PurpleAir"
+    },
+    {
+      "path": "ch/03/theory_summary",
+      "url": "https://learningds.org/ch/03/theory_summary.html",
+      "title": "3.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2223,
+      "preview": "# 3.5. Summary# In this chapter, we used the analogy of drawing marbles from an urn to model random sampling from populations and random assignment of subjects to treatments in experiments. This framework enables us to run simulation studies for hypothetical surveys, experiments, or other chance pro"
+    },
+    {
+      "path": "ch/04/modeling_intro",
+      "url": "https://learningds.org/ch/04/modeling_intro.html",
+      "title": "4. Modeling with Summary Statistics",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2017,
+      "preview": "# 4. Modeling with Summary Statistics# We saw in Chapter 2  the importance of data scope and in Chapter 3 the importance of data generation mechanisms, such as one that can be represented by an urn model.  Urn models address one aspect of modeling: they describe chance variation and ensure that the "
+    },
+    {
+      "path": "ch/04/modeling_simple.ipynb",
+      "url": "https://learningds.org/ch/04/modeling_simple.html",
+      "title": "Modeling Simple",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 3545,
+      "preview": "```python # Reference: https://jupyterbook.org/interactive/hiding.html # Use {hide, remove}-{input, output, cell} tags to hiding content  import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```"
+    },
+    {
+      "path": "ch/04/modeling_loss_functions.ipynb",
+      "url": "https://learningds.org/ch/04/modeling_loss_functions.html",
+      "title": "Modeling Loss Functions",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 13382,
+      "preview": "```python # Reference: https://jupyterbook.org/interactive/hiding.html # Use {hide, remove}-{input, output, cell} tags to hiding content  import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```"
+    },
+    {
+      "path": "ch/04/modeling_summary.ipynb",
+      "url": "https://learningds.org/ch/04/modeling_summary.html",
+      "title": "Modeling Summary",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 1675,
+      "preview": "(sec:modeling_summary)= # Summary  We introduced the constant model: a model that summarizes the data by a single value. To fit the constant model, we chose a loss function that measured how well a given constant fits a data value, and we computed the average loss over all of the data values. We saw"
+    },
+    {
+      "path": "ch/05/bus_intro",
+      "url": "https://learningds.org/ch/05/bus_intro.html",
+      "title": "5. Case Study: Why Is My Bus Always Late?",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1777,
+      "preview": "# 5. Case Study: Why Is My Bus Always Late?# Jake VanderPlas’s blog, Pythonic Perambulations, offers a great example of what it’s like to be a modern data scientist. As data scientists, we see data in our work, daily routines, and personal lives, and we tend to be curious about what insights these d"
+    },
+    {
+      "path": "ch/05/bus_scope.ipynb",
+      "url": "https://learningds.org/ch/05/bus_scope.html",
+      "title": "Bus Scope",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 1587,
+      "preview": "```python import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```  # Question and Scope  Our original question comes from the experience of a regular bus rider wondering why their bus is always"
+    },
+    {
+      "path": "ch/05/bus_clean.ipynb",
+      "url": "https://learningds.org/ch/05/bus_clean.html",
+      "title": "Bus Clean",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 5202,
+      "preview": "```python # Reference: https://jupyterbook.org/interactive/hiding.html # Use {hide, remove}-{input, output, cell} tags to hiding content  import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```"
+    },
+    {
+      "path": "ch/05/bus_eda.ipynb",
+      "url": "https://learningds.org/ch/05/bus_eda.html",
+      "title": "Bus Eda",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 6026,
+      "preview": "```python # Reference: https://jupyterbook.org/interactive/hiding.html # Use {hide, remove}-{input, output, cell} tags to hiding content  import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```"
+    },
+    {
+      "path": "ch/05/bus_modeling.ipynb",
+      "url": "https://learningds.org/ch/05/bus_modeling.html",
+      "title": "Bus Modeling",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 8549,
+      "preview": "```python # Reference: https://jupyterbook.org/interactive/hiding.html # Use {hide, remove}-{input, output, cell} tags to hiding content  import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```"
+    },
+    {
+      "path": "ch/05/bus_summary.ipynb",
+      "url": "https://learningds.org/ch/05/bus_summary.html",
+      "title": "Bus Summary",
+      "status": "ok",
+      "source": "github-ipynb",
+      "chars": 2053,
+      "preview": "```python import sys import os if not any(path.endswith('textbook') for path in sys.path):     sys.path.append(os.path.abspath('../../..')) from textbook_utils import * ```  (sec:bus_summary)= # Summary  In our first case study, we have traversed the full data life modeling. It might strike you how "
+    },
+    {
+      "path": "ch/06/pandas_intro",
+      "url": "https://learningds.org/ch/06/pandas_intro.html",
+      "title": "6. Working with Dataframes Using pandas",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2463,
+      "preview": "# 6. Working with Dataframes Using pandas# Data scientists work with data stored in tables. This chapter introduces dataframes, one of the most widely used ways to represent data tables. We also introduce pandas, the standard Python package for working with dataframes. Here is an example of a datafr"
+    },
+    {
+      "path": "ch/06/pandas_subsetting",
+      "url": "https://learningds.org/ch/06/pandas_subsetting.html",
+      "title": "6.1. Subsetting",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 13336,
+      "preview": "# 6.1. Subsetting# This section introduces operations for taking subsets of dataframes. When data scientists first read in a dataframe, they often want to subset the specific data that they plan to use. For example, a data scientist can slice out the 10 relevant features from a dataframe with hundre"
+    },
+    {
+      "path": "ch/06/pandas_aggregating",
+      "url": "https://learningds.org/ch/06/pandas_aggregating.html",
+      "title": "6.2. Aggregating",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9224,
+      "preview": "# 6.2. Aggregating# This section introduces operations for aggregating rows in a dataframe. Data scientists aggregate rows together to make summaries of data. For instance, a dataset containing daily sales can be aggregated to show monthly sales instead. This section introduces grouping and pivoting"
+    },
+    {
+      "path": "ch/06/pandas_joining",
+      "url": "https://learningds.org/ch/06/pandas_joining.html",
+      "title": "6.3. Joining",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7816,
+      "preview": "# 6.3. Joining# Data scientists very frequently want to join two or more dataframes together in order to connect data values across dataframes. For instance, an online bookstore might have one dataframe with the books each user has ordered and a second dataframe with the genres of each book. By join"
+    },
+    {
+      "path": "ch/06/pandas_transforming",
+      "url": "https://learningds.org/ch/06/pandas_transforming.html",
+      "title": "6.4. Transforming",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5111,
+      "preview": "# 6.4. Transforming# Data scientists transform dataframe columns when they need to change each value in a feature in the same way. For example, if a feature contains heights of people in feet, a data scientist might want to transform the heights to centimeters. In this section, we’ll introduce apply"
+    },
+    {
+      "path": "ch/06/pandas_other_reps",
+      "url": "https://learningds.org/ch/06/pandas_other_reps.html",
+      "title": "6.5. How Are Dataframes Different from Other Data Representations?",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5227,
+      "preview": "# 6.5. How Are Dataframes Different from Other Data Representations?# Dataframes are just one way to represent data stored in a table. In practice, data scientists encounter many other types of data tables, like spreadsheets, matrices, and relations. In this section, we’ll compare and contrast the d"
+    },
+    {
+      "path": "ch/06/pandas_summary",
+      "url": "https://learningds.org/ch/06/pandas_summary.html",
+      "title": "6.6. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 370,
+      "preview": "# 6.6. Summary# In this chapter, we explained what dataframes are, why they’re useful, and how to work with them using pandas code. Subsetting, aggregating, joining, and transforming are useful in nearly every data analysis. We’ll rely on these operations often in the rest of the book, especially in"
+    },
+    {
+      "path": "ch/07/sql_intro",
+      "url": "https://learningds.org/ch/07/sql_intro.html",
+      "title": "7. Working with Relations Using SQL",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1370,
+      "preview": "# 7. Working with Relations Using SQL# In Working with Dataframes Using pandas, we used dataframes to represent tables of data. This chapter introduces relations, another widely used way to represent data tables. We also introduce SQL, the standard programming language for working with relations. He"
+    },
+    {
+      "path": "ch/07/sql_subsetting",
+      "url": "https://learningds.org/ch/07/sql_subsetting.html",
+      "title": "7.1. Subsetting",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8017,
+      "preview": "# 7.1. Subsetting# To work with relations, we’ll introduce a domain-specific programming language called SQL (Structured Query Language). We commonly pronounce “SQL” like “sequel” instead of spelling out the acronym. SQL is a specialized language for working with relations—as such, SQL has a differe"
+    },
+    {
+      "path": "ch/07/sql_aggregating",
+      "url": "https://learningds.org/ch/07/sql_aggregating.html",
+      "title": "7.2. Aggregating",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4685,
+      "preview": "# 7.2. Aggregating# This section introduces grouping and aggregating in SQL. We’ll work with the baby names data, as in the previous section: import sqlalchemy db = sqlalchemy.create_engine('sqlite:///babynames.db') query = ''' SELECT * FROM baby LIMIT 10 ''' pd.read_sql(query, db) Name Sex Count Ye"
+    },
+    {
+      "path": "ch/07/sql_joining",
+      "url": "https://learningds.org/ch/07/sql_joining.html",
+      "title": "7.3. Joining",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6374,
+      "preview": "# 7.3. Joining# To connect records between two data tables, SQL relations can be joined together similar to dataframes. In this section, we introduce SQL joins to replicate our analysis of the baby names data. Recall that Chapter 6 mentions a New York Times article that talks about how certain name "
+    },
+    {
+      "path": "ch/07/sql_transforming",
+      "url": "https://learningds.org/ch/07/sql_transforming.html",
+      "title": "7.4. Transforming and Common Table Expressions",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5989,
+      "preview": "# 7.4. Transforming and Common Table Expressions# In this section, we show how to call functions to transform columns of data using built-in SQL functions. We also demonstrate how to use common table expressions to build up complex queries from simpler ones. As usual, we start by loading the databas"
+    },
+    {
+      "path": "ch/07/sql_summary",
+      "url": "https://learningds.org/ch/07/sql_summary.html",
+      "title": "7.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 758,
+      "preview": "# 7.5. Summary# In this chapter, we explained what relations are, why they’re useful, and how to work with them using SQL code. SQL databases are useful for many real-world settings. For example, SQL databases typically have robust data recovery mechanisms—if the computer crashes while in the middle"
+    },
+    {
+      "path": "ch/08/files_intro",
+      "url": "https://learningds.org/ch/08/files_intro.html",
+      "title": "8. Wrangling Files",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1769,
+      "preview": "# 8. Wrangling Files# Before you can work with data in Python, it helps to understand the files that store the source of the data. You want answers to a couple of basic questions: - How much data do you have? - How is the source file formatted? Answers to these questions can be very helpful. For exa"
+    },
+    {
+      "path": "ch/08/files_datasets",
+      "url": "https://learningds.org/ch/08/files_datasets.html",
+      "title": "8.1. Data Source Examples",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4255,
+      "preview": "# 8.1. Data Source Examples# We have selected two examples to demonstrate file wrangling concepts: a government survey about drug abuse; and administrative data from the San Francisco Department of Public Health about restaurant inspections. Before we start wrangling, we give an overview of the data"
+    },
+    {
+      "path": "ch/08/files_formats",
+      "url": "https://learningds.org/ch/08/files_formats.html",
+      "title": "8.2. File Formats",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9903,
+      "preview": "# 8.2. File Formats# A file format describes how data are stored on a computer’s disk or other storage device. Understanding the file format helps us figure out how to read the data into Python in order to work with it as a data table. In this section, we introduce several popular formats used to st"
+    },
+    {
+      "path": "ch/08/files_encoding",
+      "url": "https://learningds.org/ch/08/files_encoding.html",
+      "title": "8.3. File Encoding",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3472,
+      "preview": "# 8.3. File Encoding# Computers store data as sequences of bits: 0s and 1s. Character encodings, like ASCII, tell the computer how to translate between bits and text. For example, in ASCII, the bits 100 001 stand for the letter A and 100 010 for B. The most basic kind of plain text supports only sta"
+    },
+    {
+      "path": "ch/08/files_size",
+      "url": "https://learningds.org/ch/08/files_size.html",
+      "title": "8.4. File Size",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8128,
+      "preview": "# 8.4. File Size# Computers have finite resources. You have likely encountered these limits firsthand if your computer has slowed down from having too many applications open at once. We want to make sure that we do not exceed the computer’s limits while working with data, and we might choose to exam"
+    },
+    {
+      "path": "ch/08/files_command_line",
+      "url": "https://learningds.org/ch/08/files_command_line.html",
+      "title": "8.5. The Shell and Command-Line Tools",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7939,
+      "preview": "# 8.5. The Shell and Command-Line Tools# Nearly all computers provide access to a shell interpreter, such as sh or bash or zsh.  These interpreters typically perform operations on the files on a computer with their own language, syntax, and built-in commands. We use the term command-line interface ("
+    },
+    {
+      "path": "ch/08/files_granularity",
+      "url": "https://learningds.org/ch/08/files_granularity.html",
+      "title": "8.6. Table Shape and Granularity",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 10634,
+      "preview": "# 8.6. Table Shape and Granularity# As described earlier, we refer to a dataset’s structure as a mental representation of the data, and in particular, we represent data that have a table structure by arranging values in rows and columns. We use the term granularity to describe what each row in the t"
+    },
+    {
+      "path": "ch/08/files_summary",
+      "url": "https://learningds.org/ch/08/files_summary.html",
+      "title": "8.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2554,
+      "preview": "# 8.7. Summary# Data wrangling is an essential part of data analysis. Without it, we risk overlooking problems in data that can have major consequences for future analysis. This chapter covered an important first step in data wrangling: reading data from a plain-text source file into a Python datafr"
+    },
+    {
+      "path": "ch/09/wrangling_intro",
+      "url": "https://learningds.org/ch/09/wrangling_intro.html",
+      "title": "9. Wrangling Dataframes",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3268,
+      "preview": "# 9. Wrangling Dataframes# We often need to perform preparatory work on our data before we can begin our analysis. The amount of preparation can vary widely, but there are a few basic steps to move from raw data to data ready for analysis. Chapter 8 addressed the initial steps of creating a datafram"
+    },
+    {
+      "path": "ch/09/wrangling_co2",
+      "url": "https://learningds.org/ch/09/wrangling_co2.html",
+      "title": "9.1. Example: Wrangling CO2 Measurements from the Mauna Loa Observatory",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 12388,
+      "preview": "# 9.1. Example: Wrangling CO2 Measurements from the Mauna Loa Observatory# We saw in Chapter 2 that the National Oceanic and Atmospheric Administration (NOAA) monitors CO2 concentrations in the air at the Mauna Loa Observatory. We continue with this example and use it to introduce how to make data-q"
+    },
+    {
+      "path": "ch/09/wrangling_checks",
+      "url": "https://learningds.org/ch/09/wrangling_checks.html",
+      "title": "9.2. Quality Checks",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8130,
+      "preview": "# 9.2. Quality Checks# Once your data are in a table and you understand the scope and granularity, it’s time to inspect for quality. You may have come across errors in the source as you examined and wrangled the file into a dataframe. In this section, we describe how to continue this inspection and "
+    },
+    {
+      "path": "ch/09/wrangling_missing",
+      "url": "https://learningds.org/ch/09/wrangling_missing.html",
+      "title": "9.3. Missing Values and Records",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6305,
+      "preview": "# 9.3. Missing Values and Records# In Chapter 3, we considered the potential problems when the population and the access frame are not in alignment, so we can’t access everyone we want to study. We also described problems when someone refuses to participate in the study. In these cases, entire recor"
+    },
+    {
+      "path": "ch/09/wrangling_transformations",
+      "url": "https://learningds.org/ch/09/wrangling_transformations.html",
+      "title": "9.4. Transformations and Timestamps",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9312,
+      "preview": "# 9.4. Transformations and Timestamps# Sometimes a feature is not in a form well-suited for analysis, and so we transform it. There are many reasons a feature might need a transformation: the value codings might not be useful for analysis; we may want to apply a mathematical function to a feature; o"
+    },
+    {
+      "path": "ch/09/wrangling_structure",
+      "url": "https://learningds.org/ch/09/wrangling_structure.html",
+      "title": "9.5. Modifying Structure",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5351,
+      "preview": "# 9.5. Modifying Structure# If a dataframe has an inconvenient structure, it can be difficult to do the analysis that we want. The wrangling process often reshapes the dataframe in some way to make the analysis easier and more natural. These changes can simply take a subset of the rows and/or column"
+    },
+    {
+      "path": "ch/09/wrangling_restaurants",
+      "url": "https://learningds.org/ch/09/wrangling_restaurants.html",
+      "title": "9.6. Example: Wrangling Restaurant Safety Violations",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11867,
+      "preview": "# 9.6. Example: Wrangling Restaurant Safety Violations# We wrap up this chapter with an example that demonstrates many data wrangling techniques. Recall from Chapter 8 that the San Francisco restaurant inspection data are stored in three tables: bus (for businesses/restaurants), insp (for inspection"
+    },
+    {
+      "path": "ch/09/wrangling_summary",
+      "url": "https://learningds.org/ch/09/wrangling_summary.html",
+      "title": "9.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2270,
+      "preview": "# 9.7. Summary# Data wrangling is an essential part of data analysis. Without it, we risk overlooking problems in data that can have major consequences for our future analysis. This chapter covered several important data wrangling steps that we use in nearly every analysis. We described what to look"
+    },
+    {
+      "path": "ch/10/eda_intro",
+      "url": "https://learningds.org/ch/10/eda_intro.html",
+      "title": "10. Exploratory Data Analysis",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4168,
+      "preview": "# 10. Exploratory Data Analysis# More than 50 years ago, John Tukey avidly promoted an alternative type of data analysis that broke from the formal world of confidence intervals, hypothesis tests, and modeling, and  today Tukey’s Exploratory Data Analysis (EDA) is widely practiced. Tukey describes E"
+    },
+    {
+      "path": "ch/10/eda_feature_types",
+      "url": "https://learningds.org/ch/10/eda_feature_types.html",
+      "title": "10.1. Feature Types",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 23176,
+      "preview": "# 10.1. Feature Types# Before making an exploratory plot, or any plot for that matter, it’s a good idea to examine the feature (or features) and decide on its feature type. (Sometimes we refer to a feature as a variable and its type as variable type.) Although there are multiple ways of categorizing"
+    },
+    {
+      "path": "ch/10/eda_distributions",
+      "url": "https://learningds.org/ch/10/eda_distributions.html",
+      "title": "10.2. What to Look For in a Distribution",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7249,
+      "preview": "# 10.2. What to Look For in a Distribution# Visual displays of a feature can help us see patterns in observations; they are often much better than direct examination of the numbers or strings themselves. The simple rug plot locates each observation as a “yarn” in a “rug” along an axis. The rug plot "
+    },
+    {
+      "path": "ch/10/eda_relationships",
+      "url": "https://learningds.org/ch/10/eda_relationships.html",
+      "title": "10.3. What to Look For in a Relationship",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7931,
+      "preview": "# 10.3. What to Look For in a Relationship# When we investigate multiple variables, we examine the relationships between them, in addition to their distributions. In this section, we consider pairs of features and describe what to look for. Table 10.3 provides guidelines for the type of plot to make"
+    },
+    {
+      "path": "ch/10/eda_multi",
+      "url": "https://learningds.org/ch/10/eda_multi.html",
+      "title": "10.4. Comparisons in Multivariate Settings",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5870,
+      "preview": "# 10.4. Comparisons in Multivariate Settings# When we examine a distribution or relationship, we often want to compare it across subgroups of the data. This process of conditioning on additional factors often leads to visualizations that involve three or more variables. In this section, we explain h"
+    },
+    {
+      "path": "ch/10/eda_guidelines",
+      "url": "https://learningds.org/ch/10/eda_guidelines.html",
+      "title": "10.5. Guidelines for Exploration",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1873,
+      "preview": "# 10.5. Guidelines for Exploration# So far in this chapter, we have introduced the notion of feature types; seen how the feature type can help to figure out what plot to make; and described how to read distributions and relationships in a visualization. EDA relies on building these skills and flexib"
+    },
+    {
+      "path": "ch/10/eda_example",
+      "url": "https://learningds.org/ch/10/eda_example.html",
+      "title": "10.6. Example: Sale Prices for Houses",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 19052,
+      "preview": "# 10.6. Example: Sale Prices for Houses# In this final section, we carry out an exploratory analysis using the questions in the previous section to direct our investigations. Although EDA typically begins in the data wrangling stage, for demonstration purposes the data we work with here have already"
+    },
+    {
+      "path": "ch/10/eda_summary",
+      "url": "https://learningds.org/ch/10/eda_summary.html",
+      "title": "10.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1759,
+      "preview": "# 10.7. Summary# In this chapter, we introduced the nominal, ordinal, and numerical feature types and their importance for data analysis. When presented with a dataset, we demonstrated how to consult the data dictionary and the data itself to determine the feature types for each column. We also expl"
+    },
+    {
+      "path": "ch/11/viz_intro",
+      "url": "https://learningds.org/ch/11/viz_intro.html",
+      "title": "11. Data Visualization",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1389,
+      "preview": "# 11. Data Visualization# As data scientists, we create data visualizations in order to understand our data and explain our analyses to other people. A plot should have a message, and it’s our job to communicate this message as clearly as possible. In Chapter 10, we connected the choice of a statist"
+    },
+    {
+      "path": "ch/11/viz_scale",
+      "url": "https://learningds.org/ch/11/viz_scale.html",
+      "title": "11.1. Choosing Scale to Reveal Structure",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 13735,
+      "preview": "# 11.1. Choosing Scale to Reveal Structure# In Chapter 10, we explored prices for houses sold in the San Francisico Bay Area between 2003 and 2009. Let’s revisit that example and take a look at a histogram of sale prices: px.histogram(sfh, x='price', nbins=100, labels={'price':\"Sale price (USD)\"}, w"
+    },
+    {
+      "path": "ch/11/viz_smoothing",
+      "url": "https://learningds.org/ch/11/viz_smoothing.html",
+      "title": "11.2. Smoothing and Aggregating Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 15458,
+      "preview": "# 11.2. Smoothing and Aggregating Data# When we have lots of data, we often don’t want to plot all of the individual data points. The following scatter plot shows data from Cherry Blossom, an annual 10-mile race that takes place in Washington, DC, in April, when the cherry trees are in bloom. These "
+    },
+    {
+      "path": "ch/11/viz_comparisons",
+      "url": "https://learningds.org/ch/11/viz_comparisons.html",
+      "title": "11.3. Facilitating Meaningful Comparisons",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 14624,
+      "preview": "# 11.3. Facilitating Meaningful Comparisons# The same data can be visualized in many different ways, and deciding which plot to make can be daunting. Generally speaking, our plot should help a reader make meaningful comparisons. In this section, we go over several useful principles that can improve "
+    },
+    {
+      "path": "ch/11/viz_data_design",
+      "url": "https://learningds.org/ch/11/viz_data_design.html",
+      "title": "11.4. Incorporating the Data Design",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8913,
+      "preview": "# 11.4. Incorporating the Data Design# When we create a visualization, it’s important to consider the data scope, especially the data design (see Chapter 2). Considering the question of how the data were collected can impact our plot choice and the comparisons we portray. These considerations includ"
+    },
+    {
+      "path": "ch/11/viz_context",
+      "url": "https://learningds.org/ch/11/viz_context.html",
+      "title": "11.5. Adding Context",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5251,
+      "preview": "# 11.5. Adding Context# We have used text in our graphs throughout this chapter to provide meaningful axis labels that include units of measurement, tick-mark labels for categories, and titles. This is a good practice when sharing a visualization more broadly. A good goal is to include enough contex"
+    },
+    {
+      "path": "ch/11/viz_plotly",
+      "url": "https://learningds.org/ch/11/viz_plotly.html",
+      "title": "11.6. Creating Plots Using plotly",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6959,
+      "preview": "# 11.6. Creating Plots Using plotly# In this section, we cover the basics of the plotly Python package, the main tool we use in this book to create plots. The plotly package has several advantages over other plotting libraries. It creates interactive plots rather than static images. When you create "
+    },
+    {
+      "path": "ch/11/viz_other_tools",
+      "url": "https://learningds.org/ch/11/viz_other_tools.html",
+      "title": "11.7. Other Tools for Visualization",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3000,
+      "preview": "# 11.7. Other Tools for Visualization# There are many software packages and tools for creating data visualizations. In this book, we primarily use plotly. But it’s worth knowing about a few other commonly used tools. In this section, we compare plotly to matplotlib and to grammar of graphics tools. "
+    },
+    {
+      "path": "ch/11/viz_summary",
+      "url": "https://learningds.org/ch/11/viz_summary.html",
+      "title": "11.8. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1784,
+      "preview": "# 11.8. Summary# When we analyze a dataset, we use visualizations to uncover patterns in the data that are difficult to detect otherwise. Data visualization is an iterative process. We create a plot, then decide whether to make adjustments or choose an entirely new type of plot. This chapter covered"
+    },
+    {
+      "path": "ch/12/pa_intro",
+      "url": "https://learningds.org/ch/12/pa_intro.html",
+      "title": "12. Case Study: How Accurate Are Air Quality Measurements?",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3496,
+      "preview": "# 12. Case Study: How Accurate Are Air Quality Measurements?# California is prone to wildfires, so much so that its residents (like the authors of this book) sometimes say that California is “always on fire.” In 2020, 40 separate fires covered the state in smoke, forced thousands of people to evacua"
+    },
+    {
+      "path": "ch/12/pa_scope",
+      "url": "https://learningds.org/ch/12/pa_scope.html",
+      "title": "12.1. Question, Design, and Scope",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3038,
+      "preview": "# 12.1. Question, Design, and Scope# Ideally, measures of air quality should be both accurate and timely. Inaccurate or biased measurements can mean people do not take air condition as seriously as they should. Delayed alerts can expose people to harmful air. The context provided in the introduction"
+    },
+    {
+      "path": "ch/12/pa_collocated",
+      "url": "https://learningds.org/ch/12/pa_collocated.html",
+      "title": "12.2. Finding Collocated Sensors",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 12275,
+      "preview": "# 12.2. Finding Collocated Sensors# Our analysis begins by finding collocated pairs of AQS and PurpleAir sensors—sensors that are placed essentially next to each other. This step is important because it lets us reduce the effects of other variables that might cause differences in sensor readings. Co"
+    },
+    {
+      "path": "ch/12/pa_cleaning_aqs",
+      "url": "https://learningds.org/ch/12/pa_cleaning_aqs.html",
+      "title": "12.3. Wrangling and Cleaning AQS Sensor Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7059,
+      "preview": "# 12.3. Wrangling and Cleaning AQS Sensor Data# Now that we have located sensors that are near each other, we are ready to wrangle and clean the files that contain the measurement data for these sites. We demonstrate the tasks involved with one AQS instrument and its matching PurpleAir sensor. We pi"
+    },
+    {
+      "path": "ch/12/pa_cleaning_purpleair",
+      "url": "https://learningds.org/ch/12/pa_cleaning_purpleair.html",
+      "title": "12.4. Wrangling PurpleAir Sensor Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 13577,
+      "preview": "# 12.4. Wrangling PurpleAir Sensor Data# In the previous section, we analyzed data from AQS site 06-067-0010. The matching PurpleAir sensor is named AMTS_TESTINGA, and we’ve used the PurpleAir website to download the data for this sensor into the data/purpleair_AMTS folder: !ls -alh data/purpleair_A"
+    },
+    {
+      "path": "ch/12/pa_eda",
+      "url": "https://learningds.org/ch/12/pa_eda.html",
+      "title": "12.5. Exploring PurpleAir and AQS Measurements",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7362,
+      "preview": "# 12.5. Exploring PurpleAir and AQS Measurements# Let’s explore the cleaned dataset of matched AQS and PurpleAir PM2.5 readings and look for insights that might help us in modeling. Our main interest is in the relationship between the two sources of air quality measurements. But we want to keep in m"
+    },
+    {
+      "path": "ch/12/pa_modeling",
+      "url": "https://learningds.org/ch/12/pa_modeling.html",
+      "title": "12.6. Creating a Model to Correct PurpleAir Measurements",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6011,
+      "preview": "# 12.6. Creating a Model to Correct PurpleAir Measurements# Now that we’ve explored the relationship between PM2.5 readings from AQS and PurpleAir sensors, we’re ready for the final step of the analysis: creating a model that corrects PurpleAir measurements. Barkjohn’s original analysis fits many mo"
+    },
+    {
+      "path": "ch/12/pa_conclusion",
+      "url": "https://learningds.org/ch/12/pa_conclusion.html",
+      "title": "12.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2524,
+      "preview": "# 12.7. Summary# In this chapter, we replicated Barkjohn’s analysis. We created a model that corrects PurpleAir measurements so that they closely match AQS measurements. The accuracy of this model enables the PurpleAir sensors to be included on official US government maps, like the AirNow Fire and S"
+    },
+    {
+      "path": "ch/13/text_intro",
+      "url": "https://learningds.org/ch/13/text_intro.html",
+      "title": "13. Working with Text",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1416,
+      "preview": "# 13. Working with Text# Data can reside not just as numbers but also in words: names of dog breeds, restaurant violation descriptions, street addresses, speeches, blog posts, internet reviews, and much more. To organize and analyze information contained in text, we often need to do some of the foll"
+    },
+    {
+      "path": "ch/13/text_examples",
+      "url": "https://learningds.org/ch/13/text_examples.html",
+      "title": "13.1. Examples of Text and Tasks",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3870,
+      "preview": "# 13.1. Examples of Text and Tasks# For each type of task just introduced, we provide a motivating example. These examples are based on real tasks that we have carried out, but to focus on the concept, we’ve reduced the data to snippets. ## 13.1.1. Convert Text into a Standard Format# Let’s say we w"
+    },
+    {
+      "path": "ch/13/text_strings",
+      "url": "https://learningds.org/ch/13/text_strings.html",
+      "title": "13.2. String Manipulation",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6410,
+      "preview": "# 13.2. String Manipulation# There are a handful of basic string manipulation tools that we use a lot when we work with text: - Transform uppercase characters to lowercase (or vice versa). - Replace a substring with another or delete the substring. - Split a string into pieces at a particular charac"
+    },
+    {
+      "path": "ch/13/text_regex",
+      "url": "https://learningds.org/ch/13/text_regex.html",
+      "title": "13.3. Regular Expressions",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 15767,
+      "preview": "# 13.3. Regular Expressions# Regular expressions (or regex for short) are special patterns that we use to match parts of strings. Think about the format of a Social Security number (SSN) like 134-42-2012. To describe this format, we might say that SSNs consist of three digits, then a dash, two digit"
+    },
+    {
+      "path": "ch/13/text_sotu",
+      "url": "https://learningds.org/ch/13/text_sotu.html",
+      "title": "13.4. Text Analysis",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8861,
+      "preview": "# 13.4. Text Analysis# So far, we’ve used Python methods and regular expressions to clean short text fields and strings. In this section, we analyze entire documents using a technique called text mining, which transforms free-form text into a quantitative representation to uncover meaningful pattern"
+    },
+    {
+      "path": "ch/13/text_summary",
+      "url": "https://learningds.org/ch/13/text_summary.html",
+      "title": "13.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1412,
+      "preview": "# 13.5. Summary# This chapter introduced techniques for working with text to clean and analyze data, including string manipulation, regular expressions, and document analysis. Text data has rich information about how people live, work, and think. But this data is also hard for computers to use—think"
+    },
+    {
+      "path": "ch/14/web_intro",
+      "url": "https://learningds.org/ch/14/web_intro.html",
+      "title": "14. Data Exchange",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1984,
+      "preview": "# 14. Data Exchange# Data can be stored and exchanged in many different formats. Thus far, we’ve focused on plain-text delimited and fixed-width formats (Chapter 8). In this chapter, we expand our horizons a bit and introduce a few other popular formats. While CSV, TSV, and FWF files are useful for "
+    },
+    {
+      "path": "ch/14/web_netCDF",
+      "url": "https://learningds.org/ch/14/web_netCDF.html",
+      "title": "14.1. NetCDF Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9223,
+      "preview": "# 14.1. NetCDF Data# The Network Common Data Form (NetCDF) is a convenient and efficient format for storing array-oriented scientific data. A mental model for this format represents a variable by a multidimensional grid of values. The diagram in Figure 14.1 shows the concept. A variable such as rain"
+    },
+    {
+      "path": "ch/14/web_json",
+      "url": "https://learningds.org/ch/14/web_json.html",
+      "title": "14.2. JSON Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7096,
+      "preview": "# 14.2. JSON Data# JavaScript Object Notation (JSON) is a popular format for exchanging data on the web. This plain-text format has a simple and flexible syntax that aligns well with Python dictionaries, and it is easy for machines to parse and people to read. Briefly, JSON has two main structures, "
+    },
+    {
+      "path": "ch/14/web_http",
+      "url": "https://learningds.org/ch/14/web_http.html",
+      "title": "14.3. HTTP",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7008,
+      "preview": "# 14.3. HTTP# HTTP (aka HyperText Transfer Protocol) is an all-purpose infrastructure to access resources on the web. There are a tremendous number of datasets available to us on the internet, and with HTTP we can acquire these datasets. The internet allows computers to communicate with each other, "
+    },
+    {
+      "path": "ch/14/web_rest",
+      "url": "https://learningds.org/ch/14/web_rest.html",
+      "title": "14.4. REST",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8289,
+      "preview": "# 14.4. REST# Web services are increasingly implementing the REST (REpresentational State Transfer) architecture for developers to access their data. These include social media platforms like Twitter and Instagram, music apps like Spotify, real estate apps like Zillow, scientific sources of data suc"
+    },
+    {
+      "path": "ch/14/web_html",
+      "url": "https://learningds.org/ch/14/web_html.html",
+      "title": "14.5. XML, HTML, and XPath",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 18067,
+      "preview": "# 14.5. XML, HTML, and XPath# The eXtensible Markup Language (XML ) can represent all types of information, such as data sent to and from web services, including web pages, spreadsheets, visual displays like SVG, social network structures, word processing documents like MicroSoft’s docx, databases, "
+    },
+    {
+      "path": "ch/14/web_summary",
+      "url": "https://learningds.org/ch/14/web_summary.html",
+      "title": "14.6. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2857,
+      "preview": "# 14.6. Summary# The internet abounds with data that are stored and exchanged in many different formats. In this chapter, our aim was to give you a flavor for the variety of formats available and a basic understanding of how to acquire data from online sources and services. We also addressed the imp"
+    },
+    {
+      "path": "ch/15/linear_intro",
+      "url": "https://learningds.org/ch/15/linear_intro.html",
+      "title": "15. Linear Models",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2269,
+      "preview": "# 15. Linear Models# At this point in the book, we’ve covered the four stages of the data science lifecycle to different extents. We’ve talked about formulating questions and obtaining and cleaning data, and we’ve used exploratory data analysis to better understand the data. In this chapter, we exte"
+    },
+    {
+      "path": "ch/15/linear_simple",
+      "url": "https://learningds.org/ch/15/linear_simple.html",
+      "title": "15.1. Simple Linear Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7152,
+      "preview": "# 15.1. Simple Linear Model# Like with the constant model, our goal is to approximate the signal in a feature by a constant. Now we have additional information from a second feature to help us. In short, we want to use information from a second feature to make a better model than the constant model."
+    },
+    {
+      "path": "ch/15/linear_pa",
+      "url": "https://learningds.org/ch/15/linear_pa.html",
+      "title": "15.2. Example: A Simple Linear Model for Air Quality",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8687,
+      "preview": "# 15.2. Example: A Simple Linear Model for Air Quality# Recall from  Chapter 12 that our aim is to use air quality measurements from the accurate Air Quality System  (AQS) sensors operated by the US government to predict the measurements made by PurpleAir (PA) sensors.  The pairs of data values come"
+    },
+    {
+      "path": "ch/15/linear_simple_fit",
+      "url": "https://learningds.org/ch/15/linear_simple_fit.html",
+      "title": "15.3. Fitting the Simple Linear Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4444,
+      "preview": "# 15.3. Fitting the Simple Linear Model# We stated earlier in this chapter that when we minimize the average loss over the data: \\[ \\frac{1}{n} \\sum_{i}[y_i - (\\theta_0 + \\theta_1 x_i)]^2 \\] the best-fitting line has intercept and slope: \\[\\begin{split} \\begin{aligned} \\hat{\\theta}_0 &= \\bar{y} - \\h"
+    },
+    {
+      "path": "ch/15/linear_multi",
+      "url": "https://learningds.org/ch/15/linear_multi.html",
+      "title": "15.4. Multiple Linear Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6781,
+      "preview": "# 15.4. Multiple Linear Model# So far in this chapter, we’ve used a single input variable to predict an outcome variable. Now we introduce the multiple linear model that uses more than one feature to predict (or describe or explain) the outcome. Having multiple explanatory features can improve our m"
+    },
+    {
+      "path": "ch/15/linear_multi_fit",
+      "url": "https://learningds.org/ch/15/linear_multi_fit.html",
+      "title": "15.5. Fitting the Multiple Linear Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9302,
+      "preview": "# 15.5. Fitting the Multiple Linear Model# In the previous section, we considered the case of two explanatory variables; one of these we called \\(x\\) and the other \\(v\\). Now we want to generalize the approach to \\(p\\) explanatory variables. The idea of choosing different letters to represent variab"
+    },
+    {
+      "path": "ch/15/linear_case",
+      "url": "https://learningds.org/ch/15/linear_case.html",
+      "title": "15.6. Example: Where Is the Land of Opportunity?",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 14191,
+      "preview": "# 15.6. Example: Where Is the Land of Opportunity?# The US is called “the land of opportunity” because people believe that even those with few resources can end up wealthy in the US—economists call this notion “economic mobility.” In one study, economist Raj Chetty and colleagues did a large-scale d"
+    },
+    {
+      "path": "ch/15/linear_feature_eng",
+      "url": "https://learningds.org/ch/15/linear_feature_eng.html",
+      "title": "15.7. Feature Engineering for Numeric Measurements",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7627,
+      "preview": "# 15.7. Feature Engineering for Numeric Measurements# All of the models that we have fit so far in this chapter have used numeric features that were originally provided in the data frame. In this section, we look at variables that are created from transformations of numeric features. Transforming va"
+    },
+    {
+      "path": "ch/15/linear_categorical",
+      "url": "https://learningds.org/ch/15/linear_categorical.html",
+      "title": "15.8. Feature Engineering for Categorical Measurements",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11926,
+      "preview": "# 15.8. Feature Engineering for Categorical Measurements# The first model we ever fit was the constant model in Chapter 4. There, we minimized squared loss to find the best-fitting constant: \\[ \\min_c \\sum_i (y_i - c)^2 \\] We can think of including a nominal feature in a model in a similar fashion. "
+    },
+    {
+      "path": "ch/15/linear_summary",
+      "url": "https://learningds.org/ch/15/linear_summary.html",
+      "title": "15.9. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2455,
+      "preview": "# 15.9. Summary# Linear models help us describe relationships between features. We discussed the simple linear model and extended it to linear models in multiple variables. Along the way, we applied mathematical techniques that are widely useful in modeling—calculus to minimize loss for the simple l"
+    },
+    {
+      "path": "ch/16/ms_intro",
+      "url": "https://learningds.org/ch/16/ms_intro.html",
+      "title": "16. Model Selection",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2343,
+      "preview": "# 16. Model Selection# So far when we fit models, we have used a few strategies to decide which features to include: - Assess model fit with residual plots. - Connect the statistical model to a physical model. - Keep the model simple. - Compare improvements in the standard deviation of the residuals"
+    },
+    {
+      "path": "ch/16/ms_overfitting",
+      "url": "https://learningds.org/ch/16/ms_overfitting.html",
+      "title": "16.1. Overfitting",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7482,
+      "preview": "# 16.1. Overfitting# When we have many features available to include in a model, choosing which ones to include or exclude rapidly gets complicated. In the upward mobility example in Chapter 15, we chose two of the seven variables to fit the model, but there are 21 pairs of features that we could ha"
+    },
+    {
+      "path": "ch/16/ms_train_test",
+      "url": "https://learningds.org/ch/16/ms_train_test.html",
+      "title": "16.2. Train-Test Split",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6310,
+      "preview": "# 16.2. Train-Test Split# Although we want to use all of our data in building a model, we also want to get a sense of how the model behaves with new data. We often do not have the luxury of collecting additional data to assess a model, so instead we set aside a portion of our data, called the test s"
+    },
+    {
+      "path": "ch/16/ms_cv",
+      "url": "https://learningds.org/ch/16/ms_cv.html",
+      "title": "16.3. Cross-Validation",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 8638,
+      "preview": "# 16.3. Cross-Validation# We can use the train-test paradigm to help us choose a model. The idea is to further divide the train set into separate parts where we fit the model on one part and evaluate it on another. This approach is called cross-validation.  We describe one version, called \\(k\\)-fold"
+    },
+    {
+      "path": "ch/16/ms_regularization",
+      "url": "https://learningds.org/ch/16/ms_regularization.html",
+      "title": "16.4. Regularization",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11551,
+      "preview": "# 16.4. Regularization# We just saw how cross-validation can help find a dimension for a fitted model that balances under- and overfitting. Rather than selecting the dimension of the model, we can build a model with all of the features, but restrict the size of the coefficients. We keep from overfit"
+    },
+    {
+      "path": "ch/16/ms_risk",
+      "url": "https://learningds.org/ch/16/ms_risk.html",
+      "title": "16.6. Model Bias and Variance",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5204,
+      "preview": "# 16.6. Model Bias and Variance# In this section, we provide a different way to think about the problem of over- and underfitting. We carry out a simulation study where we generate synthetic data from a model of our design. This way, we know the true model, and we can see how close we get to the tru"
+    },
+    {
+      "path": "ch/16/ms_summary",
+      "url": "https://learningds.org/ch/16/ms_summary.html",
+      "title": "16.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3199,
+      "preview": "# 16.7. Summary# In this chapter, we saw that problems arise when we minimize mean square error to both fit a model and evaluate it.  The train-test split helps us get around this problem, where we fit a model with the train set and evaluate our fitted model on test data that have been set aside. It"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_intro",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_intro.html",
+      "title": "17. Theory for Inference and Prediction",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1385,
+      "preview": "# 17. Theory for Inference and Prediction# When you want to generalize your findings beyond descriptions for your collection of data to a larger setting, the data needs to be representative of that larger world. For example, you may want to predict air quality at a future time based on a sensor read"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_dist",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_dist.html",
+      "title": "17.1. Distributions: Population, Empirical, Sampling",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3547,
+      "preview": "# 17.1. Distributions: Population, Empirical, Sampling# The population, sampling, and empirical distributions are important concepts that guide us when we make inferences about a model or predictions for new observations.  Figure 17.1 provides a diagram that can help distinguish between them. The di"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_HT",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_HT.html",
+      "title": "17.2. Basics of Hypothesis Testing",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 18180,
+      "preview": "# 17.2. Basics of Hypothesis Testing# In our experience, hypothesis testing is one of the more challenging areas of data science—challenging to learn and challenging to apply. This is not necessarily because hypothesis testing is deeply technical; rather, hypothesis testing can be counterintuitive b"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_boot",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_boot.html",
+      "title": "17.3. Bootstrapping for Inference",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9682,
+      "preview": "# 17.3. Bootstrapping for Inference# In many hypothesis tests the assumptions of the null hypothesis lead to a complete specification of a hypothetical population and data design (see Figure 17.1), and we use this specification to simulate the sampling distribution of a statistic.  For example, the "
+    },
+    {
+      "path": "ch/17/inf_pred_gen_CI",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_CI.html",
+      "title": "17.4. Basics of Confidence Intervals",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7978,
+      "preview": "# 17.4. Basics of Confidence Intervals# We have seen that modeling leads to estimates, such as the typical time that a bus is late (Chapter 4), a humidity adjustment to an air quality measurement (Chapter 15), and an estimate of vaccine efficacy (Chapter 2).  These examples are point estimates for u"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_PI",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_PI.html",
+      "title": "17.5. Basics of Prediction Intervals",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9457,
+      "preview": "# 17.5. Basics of Prediction Intervals# Confidence intervals convey the accuracy of an estimator, but sometimes we want the accuracy of a prediction for a future observation. For example, someone might say: half the time my bus arrives at most three-quarters of a minute late, but how late might it g"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_prob",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_prob.html",
+      "title": "17.6. Probability for Inference and Prediction",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 25748,
+      "preview": "# 17.6. Probability for Inference and Prediction# Hypothesis testing, confidence intervals, and prediction intervals rely on probability calculations computed from the sampling distribution and the data generation process. These probability frameworks also enable us to run simulation and bootstrap s"
+    },
+    {
+      "path": "ch/17/inf_pred_gen_summary",
+      "url": "https://learningds.org/ch/17/inf_pred_gen_summary.html",
+      "title": "17.7. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4006,
+      "preview": "# 17.7. Summary# Throughout this chapter, we based our development of the theory behind inference and prediction on the urn model. The urn induced a probability distribution on the estimator, such as the sample mean and the least squares regression coefficients. We end this chapter with some caution"
+    },
+    {
+      "path": "ch/18/donkey_intro",
+      "url": "https://learningds.org/ch/18/donkey_intro.html",
+      "title": "18. Case Study: How to Weigh a Donkey",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1489,
+      "preview": "# 18. Case Study: How to Weigh a Donkey# Donkeys play important roles in rural Kenya. People need them to transport crops, water, and people and to plow fields. When a donkey gets sick, the veterinarian needs to figure out how much the donkey weighs in order to prescribe the right amount of medicine"
+    },
+    {
+      "path": "ch/18/donkey_scope",
+      "url": "https://learningds.org/ch/18/donkey_scope.html",
+      "title": "18.1. Donkey Study Question and Scope",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2226,
+      "preview": "# 18.1. Donkey Study Question and Scope# Our motivating question is: how can a vet accurately estimate the weight of a donkey when they’re out in the countryside without a scale? Let’s think about the information that is more readily available to them. They can carry a tape measure and find the size"
+    },
+    {
+      "path": "ch/18/donkey_clean",
+      "url": "https://learningds.org/ch/18/donkey_clean.html",
+      "title": "18.2. Wrangling and Transforming",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7159,
+      "preview": "# 18.2. Wrangling and Transforming# We begin by taking a peek at the contents of our datafile. To do this, we open the file and examine the first few rows (Chapter 8): from pathlib import Path # Create a Path pointing to our data file insp_path = Path('data/donkeys.csv') with insp_path.open() as f: "
+    },
+    {
+      "path": "ch/18/donkey_eda",
+      "url": "https://learningds.org/ch/18/donkey_eda.html",
+      "title": "18.3. Exploring",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2841,
+      "preview": "# 18.3. Exploring# Let’s look at the features in our dataframe for shapes and relationships that will help us make transformations and models (Chapter 10). We start by looking at how the categorical features of age, sex, and body condition relate to weight: f1 = px.box(train_set, x=\"Age\", y=\"Weight\""
+    },
+    {
+      "path": "ch/18/donkey_model",
+      "url": "https://learningds.org/ch/18/donkey_model.html",
+      "title": "18.4. Modeling a Donkey’s Weight",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 15024,
+      "preview": "# 18.4. Modeling a Donkey’s Weight# We want to build a simple model for predicting the weight of a donkey. The model should be easy for a vet to implement in the field with only a hand calculator. The model should also be easy to interpret. We also want the model to depend on the vet’s situation—for"
+    },
+    {
+      "path": "ch/18/donkey_summary",
+      "url": "https://learningds.org/ch/18/donkey_summary.html",
+      "title": "18.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3047,
+      "preview": "# 18.5. Summary# In this case study, we demonstrated the different purposes of modeling: description, inference, and prediction. For description, we sought a simple, understandable model. We handcrafted this model, beginning with our findings from the exploratory phase of the analysis. Every action "
+    },
+    {
+      "path": "ch/19/class_intro",
+      "url": "https://learningds.org/ch/19/class_intro.html",
+      "title": "19. Classification",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1730,
+      "preview": "# 19. Classification# This chapter continues our foray into the fourth stage of the data science lifecycle: fitting and evaluating models to understand the world. So far, we’ve described how to fit a constant model using absolute error (Chapter 4) and simple and multiple linear models using squared "
+    },
+    {
+      "path": "ch/19/class_example",
+      "url": "https://learningds.org/ch/19/class_example.html",
+      "title": "19.1. Example: Wind-Damaged Trees",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4439,
+      "preview": "# 19.1. Example: Wind-Damaged Trees# In 1999, a huge storm with winds over 90 mph damaged millions of trees in the Boundary Waters Canoe Area Wilderness (BWCAW), which has the largest tract of virgin forest in the eastern US. In an effort to understand the susceptibility of trees to wind damage, a r"
+    },
+    {
+      "path": "ch/19/class_pred",
+      "url": "https://learningds.org/ch/19/class_pred.html",
+      "title": "19.2. Modeling and Classification",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5728,
+      "preview": "# 19.2. Modeling and Classification# We’d like to create a model that explains the susceptibility of trees to windthrow. In other words, we need to build a model for a two-level nominal feature: fallen or standing. When the response variable is nominal, this modeling task is called classification. I"
+    },
+    {
+      "path": "ch/19/class_log_model",
+      "url": "https://learningds.org/ch/19/class_log_model.html",
+      "title": "19.3. Modeling Proportions (and Probabilities)",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7203,
+      "preview": "# 19.3. Modeling Proportions (and Probabilities)# Recall that when we model, we need to choose three things: a model, a loss function, and a method to minimize the average loss on our train set. In the previous section, we chose a constant model, the 0-1 loss, and a proof to fit the model. However, "
+    },
+    {
+      "path": "ch/19/class_loss",
+      "url": "https://learningds.org/ch/19/class_loss.html",
+      "title": "19.4. A Loss Function for the Logistic Model",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6512,
+      "preview": "# 19.4. A Loss Function for the Logistic Model# The logistic model gives us probabilities (or empirical proportions), so we write our loss function as \\(\\ell(p, y) \\), where \\(p\\) is between 0 and 1. The response takes on one of two values because our outcome feature is a binary classification. Thus"
+    },
+    {
+      "path": "ch/19/class_dr",
+      "url": "https://learningds.org/ch/19/class_dr.html",
+      "title": "19.5. From Probabilities to Classification",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 11155,
+      "preview": "# 19.5. From Probabilities to Classification# We started this chapter by presenting a binary classification problem where we want to model a nominal response variable. At this point, we have used logistic regression to model proportions or probabilities, and we’re now ready to return to the original"
+    },
+    {
+      "path": "ch/19/class_summary",
+      "url": "https://learningds.org/ch/19/class_summary.html",
+      "title": "19.6. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1593,
+      "preview": "# 19.6. Summary# In this chapter, we fit simple logistic regressions with one explanatory variable, but we can easily include other variables in the model by adding more features to our design matrix. For example, if some predictors are categorical, we can include them as one-hot encoded features. T"
+    },
+    {
+      "path": "ch/20/gd_intro",
+      "url": "https://learningds.org/ch/20/gd_intro.html",
+      "title": "20. Numerical Optimization",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2373,
+      "preview": "# 20. Numerical Optimization# At this point in the book, our modeling procedure should feel familiar: we define a model, choose a loss function, and fit the model by minimizing the average loss over our training data. We’ve seen several techniques to minimize loss. For example, we used both calculus"
+    },
+    {
+      "path": "ch/20/gd_basics",
+      "url": "https://learningds.org/ch/20/gd_basics.html",
+      "title": "20.1. Gradient Descent Basics",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3959,
+      "preview": "# 20.1. Gradient Descent Basics# Gradient descent is based on the notion that for many loss functions, the function is roughly linear in small neighborhoods of the parameter. Figure 20.2 gives a diagram of the basic idea. Fig. 20.2 The technique of gradient descent moves in small increments toward t"
+    },
+    {
+      "path": "ch/20/gd_example",
+      "url": "https://learningds.org/ch/20/gd_example.html",
+      "title": "20.2. Minimizing Huber Loss",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4744,
+      "preview": "# 20.2. Minimizing Huber Loss# Huber loss combines absolute loss and squared loss to get a function that is differentiable (like squared loss) and less sensitive to outliers (like absolute loss): \\[\\begin{split} L(\\theta, \\textbf{y}) = \\frac{1}{n} \\sum_{i=1}^n \\begin{cases} \\frac{1}{2}(y_i - \\theta)"
+    },
+    {
+      "path": "ch/20/gd_convex",
+      "url": "https://learningds.org/ch/20/gd_convex.html",
+      "title": "20.3. Convex and Differentiable Loss Functions",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3747,
+      "preview": "# 20.3. Convex and Differentiable Loss Functions# As its name suggests, the gradient descent algorithm requires the function being minimized to be differentiable. The gradient,  \\( \\nabla_\\theta L( \\boldsymbol{\\theta} ) \\), allows us to make a linear approximation to the average loss in small neighb"
+    },
+    {
+      "path": "ch/20/gd_alternative",
+      "url": "https://learningds.org/ch/20/gd_alternative.html",
+      "title": "20.4. Variants of Gradient Descent",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7125,
+      "preview": "# 20.4. Variants of Gradient Descent# Two variants of gradient descent, stochastic gradient descent and mini-batch gradient descent, use subsets of the data when computing the gradient of the average loss and are useful for optimization problems with large datasets. A third alternative, Newton’s met"
+    },
+    {
+      "path": "ch/20/gd_summary",
+      "url": "https://learningds.org/ch/20/gd_summary.html",
+      "title": "20.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2042,
+      "preview": "# 20.5. Summary# In this chapter, we introduced several techniques for numerical optimization that take advantage of the shape and smoothness of the loss function in the search for the minimizing parameter values. We first introduced gradient descent, which relies on the differentiability of loss fu"
+    },
+    {
+      "path": "ch/21/fake_news_intro",
+      "url": "https://learningds.org/ch/21/fake_news_intro.html",
+      "title": "21. Case Study: Detecting Fake News",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 1681,
+      "preview": "# 21. Case Study: Detecting Fake News# Fake news—false information created in order to deceive others—is an important issue because it can harm people. For example, the social media post in Figure 21.1 confidently stated that hand sanitizer doesn’t work on coronaviruses. Though factually incorrect, "
+    },
+    {
+      "path": "ch/21/fake_news_question",
+      "url": "https://learningds.org/ch/21/fake_news_question.html",
+      "title": "21.1. Question and Scope",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 2549,
+      "preview": "# 21.1. Question and Scope# Our initial research question is: can we automatically detect fake news? To refine this question, we consider the kind of information that we might use to build a model for detecting fake news. If we have hand-classified news stories where people have read each story and "
+    },
+    {
+      "path": "ch/21/fake_news_data",
+      "url": "https://learningds.org/ch/21/fake_news_data.html",
+      "title": "21.2. Obtaining and Wrangling the Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6667,
+      "preview": "# 21.2. Obtaining and Wrangling the Data# Let’s get the data into Python using the GitHub page for FakeNewsNet. Reading over the repository description and code, we find that the repository doesn’t actually store the news articles itself. Instead, running the repository code will scrape news article"
+    },
+    {
+      "path": "ch/21/fake_news_exploring",
+      "url": "https://learningds.org/ch/21/fake_news_exploring.html",
+      "title": "21.3. Exploring the Data",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 9197,
+      "preview": "# 21.3. Exploring the Data# The dataset of news articles we’re exploring is just one part of the larger FakeNewsNet dataset. As such, the original paper doesn’t provide detailed information about our subset of data. So, to better understand the data, we must explore it ourselves. Before starting exp"
+    },
+    {
+      "path": "ch/21/fake_news_modeling",
+      "url": "https://learningds.org/ch/21/fake_news_modeling.html",
+      "title": "21.4. Modeling",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 13320,
+      "preview": "# 21.4. Modeling# Now that we’ve obtained, cleaned, and explored our data, let’s fit models to predict whether articles are real or fake. In this section, we use logistic regression because we have a binary classification problem. We fit three different models that increase in complexity. First, we "
+    },
+    {
+      "path": "ch/21/fake_news_summary",
+      "url": "https://learningds.org/ch/21/fake_news_summary.html",
+      "title": "21.5. Summary",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 3296,
+      "preview": "# 21.5. Summary# We’re quickly approaching the end of the chapter and thus the end of the book. We started this book by talking about the data science lifecycle. Let’s take another look at the lifecycle, in Figure 21.2, to appreciate everything that you’ve learned. Fig. 21.2 The four high-level step"
+    },
+    {
+      "path": "additional_resources",
+      "url": "https://learningds.org/additional_resources.html",
+      "title": "Additional Material",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 6300,
+      "preview": "# Additional Material# Collected here are a variety of resources for a more in-depth treatment of the larger themes in this book. In addition to recommendations for these broad topics, we provide a list of resources for several smaller topics and big topics that we only lightly touched on. These res"
+    },
+    {
+      "path": "data_sources",
+      "url": "https://learningds.org/data_sources.html",
+      "title": "Data Sources",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 5906,
+      "preview": "# Data Sources# All of the data analyzed in this book are available on the book’s website, LearningDS.org and on the GitHub repository for the book. These datasets are from open repositories and from individuals. We acknowledge them all here, and include, as appropriate, the file name for the data s"
+    },
+    {
+      "path": "ch/a01/prob_review",
+      "url": "https://learningds.org/ch/a01/prob_review.html",
+      "title": "Probability Review",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 7841,
+      "preview": "# Probability Review# Many fundamental aspects of data science, including data design, rely on uncertain phenomenon. The laws of probability allow us to quantify this uncertainty. In this section, we will provide a quick review of important probability concepts for this course. Suppose we toss two c"
+    },
+    {
+      "path": "ch/a02/vector_space_review",
+      "url": "https://learningds.org/ch/a02/vector_space_review.html",
+      "title": "Vector Space Review",
+      "status": "ok",
+      "source": "web-html",
+      "chars": 4532,
+      "preview": "# Vector Space Review# ## Definition of a vector# A vector is defined by a length and a direction. Notice that \\(\\vec{x}\\) and \\(\\vec{y}\\) have the same length and direction. They are equal vectors. ## Scaling and adding vectors# To scale a vector is to change it’s length. Notice that \\(\\vec{2x}\\) a"
+    }
+  ]
+}

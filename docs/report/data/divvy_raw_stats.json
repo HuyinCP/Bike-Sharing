@@ -1,0 +1,187 @@
+{
+  "name": "Divvy (Chicago)",
+  "file": "divvybike_merged.parquet",
+  "n": 6068796,
+  "dup": 0,
+  "tmin": "2025-03-31 23:17:22.078000",
+  "tmax": "2026-04-30 23:58:56.151000",
+  "cols": [
+    {
+      "col": "ride_id",
+      "dtype": "VARCHAR",
+      "unique": 6068796,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "rideable_type",
+      "dtype": "VARCHAR",
+      "unique": 2,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "started_at",
+      "dtype": "TIMESTAMP_NS",
+      "unique": 6067648,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "ended_at",
+      "dtype": "TIMESTAMP_NS",
+      "unique": 6065855,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "start_station_name",
+      "dtype": "VARCHAR",
+      "unique": 1919,
+      "null": 0,
+      "empty": 1286941,
+      "space": 0,
+      "total_miss": 1286941,
+      "pct": 21.2059
+    },
+    {
+      "col": "start_station_id",
+      "dtype": "VARCHAR",
+      "unique": 3343,
+      "null": 0,
+      "empty": 1286941,
+      "space": 0,
+      "total_miss": 1286941,
+      "pct": 21.2059
+    },
+    {
+      "col": "end_station_name",
+      "dtype": "VARCHAR",
+      "unique": 1930,
+      "null": 0,
+      "empty": 1353498,
+      "space": 0,
+      "total_miss": 1353498,
+      "pct": 22.3026
+    },
+    {
+      "col": "end_station_id",
+      "dtype": "VARCHAR",
+      "unique": 3372,
+      "null": 0,
+      "empty": 1353498,
+      "space": 0,
+      "total_miss": 1353498,
+      "pct": 22.3026
+    },
+    {
+      "col": "start_lat",
+      "dtype": "DOUBLE",
+      "unique": 129062,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "start_lng",
+      "dtype": "DOUBLE",
+      "unique": 126939,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "end_lat",
+      "dtype": "DOUBLE",
+      "unique": 2089,
+      "null": 6146,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 6146,
+      "pct": 0.1013
+    },
+    {
+      "col": "end_lng",
+      "dtype": "DOUBLE",
+      "unique": 2089,
+      "null": 6146,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 6146,
+      "pct": 0.1013
+    },
+    {
+      "col": "member_casual",
+      "dtype": "VARCHAR",
+      "unique": 2,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    }
+  ],
+  "th": {
+    "TH1": 1286941,
+    "TH2": 1353498,
+    "TH3": 613301,
+    "TH4": 0,
+    "TH5": 6146,
+    "TH6": 0,
+    "TH7": 0
+  },
+  "validity": {
+    "duration_le_0": 102331,
+    "duration_gt_24h": 6133,
+    "ended_before_started": 29,
+    "coord_zero": 0,
+    "unlocatable_start": 0,
+    "unlocatable_end": 6146
+  },
+  "start_name_miss_gps_ok": 1286941,
+  "start_name_miss_no_gps": 0,
+  "end_name_miss_gps_ok": 1347352,
+  "end_name_miss_no_gps": 6146,
+  "rideable": [
+    [
+      "electric_bike",
+      3993839
+    ],
+    [
+      "classic_bike",
+      2074957
+    ]
+  ],
+  "member": [
+    [
+      "member",
+      3921783
+    ],
+    [
+      "casual",
+      2147013
+    ]
+  ],
+  "th1_by_ride": [
+    [
+      "electric_bike",
+      1286941
+    ]
+  ]
+}

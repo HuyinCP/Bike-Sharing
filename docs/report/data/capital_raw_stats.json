@@ -1,0 +1,187 @@
+{
+  "name": "Capital Bikeshare (DC)",
+  "file": "capitalbike_merged.parquet",
+  "n": 6984778,
+  "dup": 0,
+  "tmin": "2025-03-31 22:53:20.849000",
+  "tmax": "2026-04-30 23:59:54.637000",
+  "cols": [
+    {
+      "col": "ride_id",
+      "dtype": "VARCHAR",
+      "unique": 6984778,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "rideable_type",
+      "dtype": "VARCHAR",
+      "unique": 2,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "started_at",
+      "dtype": "TIMESTAMP_NS",
+      "unique": 6983443,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "ended_at",
+      "dtype": "TIMESTAMP_NS",
+      "unique": 6982011,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "start_station_name",
+      "dtype": "VARCHAR",
+      "unique": 860,
+      "null": 0,
+      "empty": 1392097,
+      "space": 0,
+      "total_miss": 1392097,
+      "pct": 19.9304
+    },
+    {
+      "col": "start_station_id",
+      "dtype": "BIGINT",
+      "unique": 843,
+      "null": 1392097,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 1392097,
+      "pct": 19.9304
+    },
+    {
+      "col": "end_station_name",
+      "dtype": "VARCHAR",
+      "unique": 857,
+      "null": 0,
+      "empty": 1445098,
+      "space": 0,
+      "total_miss": 1445098,
+      "pct": 20.6892
+    },
+    {
+      "col": "end_station_id",
+      "dtype": "BIGINT",
+      "unique": 841,
+      "null": 1447251,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 1447251,
+      "pct": 20.7201
+    },
+    {
+      "col": "start_lat",
+      "dtype": "DOUBLE",
+      "unique": 236355,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "start_lng",
+      "dtype": "DOUBLE",
+      "unique": 251605,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    },
+    {
+      "col": "end_lat",
+      "dtype": "DOUBLE",
+      "unique": 954,
+      "null": 4969,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 4969,
+      "pct": 0.0711
+    },
+    {
+      "col": "end_lng",
+      "dtype": "DOUBLE",
+      "unique": 981,
+      "null": 4969,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 4969,
+      "pct": 0.0711
+    },
+    {
+      "col": "member_casual",
+      "dtype": "VARCHAR",
+      "unique": 2,
+      "null": 0,
+      "empty": 0,
+      "space": 0,
+      "total_miss": 0,
+      "pct": 0.0
+    }
+  ],
+  "th": {
+    "TH1": 1392097,
+    "TH2": 1445098,
+    "TH3": 801665,
+    "TH4": 0,
+    "TH5": 4969,
+    "TH6": 0,
+    "TH7": 0
+  },
+  "validity": {
+    "duration_le_0": 98484,
+    "duration_gt_24h": 5104,
+    "ended_before_started": 35,
+    "coord_zero": 0,
+    "unlocatable_start": 0,
+    "unlocatable_end": 4969
+  },
+  "start_name_miss_gps_ok": 1392097,
+  "start_name_miss_no_gps": 0,
+  "end_name_miss_gps_ok": 1440129,
+  "end_name_miss_no_gps": 4969,
+  "rideable": [
+    [
+      "electric_bike",
+      4521460
+    ],
+    [
+      "classic_bike",
+      2463318
+    ]
+  ],
+  "member": [
+    [
+      "member",
+      4969552
+    ],
+    [
+      "casual",
+      2015226
+    ]
+  ],
+  "th1_by_ride": [
+    [
+      "electric_bike",
+      1392097
+    ]
+  ]
+}
