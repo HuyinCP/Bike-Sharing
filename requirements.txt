@@ -1,0 +1,12 @@
+duckdb>=1.0.0
+pandas
+pyarrow
+matplotlib
+folium
+seaborn
+scipy
+scikit-learn
+jupyter
+ipykernel
+optuna
+xgboost

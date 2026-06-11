@@ -1,0 +1,13 @@
+# 20.5. Summary
+
+**Nguồn web:** [https://learningds.org/ch/20/gd_summary.html](https://learningds.org/ch/20/gd_summary.html)  
+**Nguồn tải:** `web-html` | `ch/20/gd_summary`
+
+---
+
+# 20.5. Summary#
+In this chapter, we introduced several techniques for numerical optimization that take advantage of the shape and smoothness of the loss function in the search for the minimizing parameter values. We first introduced gradient descent, which relies on the differentiability of loss function. Gradient descent, also called batch gradient descent, iteratively improves model parameters until the model achieves minimal loss. Since batch gradient descent is computationally intractable with large datasets, we often instead use stochastic gradient descent to fit models.
+Mini-batch gradient descent is most optimal when running on a graphical processing unit (GPU) chip found in some computers. Since computations on these types of hardware can be executed in parallel, using a mini-batch can increase the accuracy of the gradient without increasing computation time. Depending on the memory size of the GPU, the mini-batch size is often set between 10 and 100 observations.
+Alternatively, if the loss function is twice differentiable, then Newton’s method can converge very quickly, even though it is more expensive to compute one step in the iteration.  A hybrid approach is also popular, beginning with gradient descent (of some kind) and then switching the algorithm to Newton’s method. This approach can avoid divergence and be faster than gradient descent alone. Typically, the second-order approximation used by Newton’s method is more appropriate near the optimum and converges quickly.
+Lastly, another option is to set the step size adaptively. Additionally, setting different learning rates for different features can be important if they are of different scale or vary in frequency. For example, word counts can differ a lot across common words and rare words.
+The logistic regression model introduced in Chapter 19 is fitted using numerical optimization methods like those described in this chapter. We wrap up with one final case study that uses logistic regression to fit a complex model with thousands of features.
